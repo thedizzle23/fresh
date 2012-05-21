@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B27AB8951569C28200C2B047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB8941569C28200C2B047 /* UIKit.framework */; };
+		B27AB8971569C28200C2B047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB8961569C28200C2B047 /* Foundation.framework */; };
+		B27AB8991569C28200C2B047 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB8981569C28200C2B047 /* CoreGraphics.framework */; };
+		B27AB89B1569C28200C2B047 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB89A1569C28200C2B047 /* CoreData.framework */; };
+		B27AB8A11569C28200C2B047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27AB89F1569C28200C2B047 /* InfoPlist.strings */; };
+		B27AB8A31569C28200C2B047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B27AB8A21569C28200C2B047 /* main.m */; };
+		B27AB8A71569C28200C2B047 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27AB8A61569C28200C2B047 /* AppDelegate.m */; };
+		B27AB8AA1569C28200C2B047 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27AB8A81569C28200C2B047 /* MainStoryboard_iPhone.storyboard */; };
+		B27AB8AD1569C28200C2B047 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27AB8AB1569C28200C2B047 /* MainStoryboard_iPad.storyboard */; };
+		B27AB8B01569C28200C2B047 /* RepoUtilityOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B27AB8AE1569C28200C2B047 /* RepoUtilityOne.xcdatamodeld */; };
+		B27AB8B31569C28200C2B047 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27AB8B21569C28200C2B047 /* MainViewController.m */; };
+		B27AB8B61569C28200C2B047 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27AB8B51569C28200C2B047 /* FlipsideViewController.m */; };
+		B27AB8BE1569C28200C2B047 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB8BD1569C28200C2B047 /* SenTestingKit.framework */; };
+		B27AB8BF1569C28200C2B047 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB8941569C28200C2B047 /* UIKit.framework */; };
+		B27AB8C01569C28200C2B047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB8961569C28200C2B047 /* Foundation.framework */; };
+		B27AB8C11569C28200C2B047 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AB89A1569C28200C2B047 /* CoreData.framework */; };
+		B27AB8C91569C28200C2B047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27AB8C71569C28200C2B047 /* InfoPlist.strings */; };
+		B27AB8CC1569C28200C2B047 /* RepoUtilityOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27AB8CB1569C28200C2B047 /* RepoUtilityOneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B27AB8C21569C28200C2B047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B27AB8871569C28200C2B047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B27AB88F1569C28200C2B047;
+			remoteInfo = RepoUtilityOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B27AB8901569C28200C2B047 /* RepoUtilityOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoUtilityOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27AB8941569C28200C2B047 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B27AB8961569C28200C2B047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B27AB8981569C28200C2B047 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B27AB89A1569C28200C2B047 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B27AB89E1569C28200C2B047 /* RepoUtilityOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RepoUtilityOne-Info.plist"; sourceTree = "<group>"; };
+		B27AB8A01569C28200C2B047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B27AB8A21569C28200C2B047 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B27AB8A41569C28200C2B047 /* RepoUtilityOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RepoUtilityOne-Prefix.pch"; sourceTree = "<group>"; };
+		B27AB8A51569C28200C2B047 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B27AB8A61569C28200C2B047 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B27AB8A91569C28200C2B047 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B27AB8AC1569C28200C2B047 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B27AB8AF1569C28200C2B047 /* RepoUtilityOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RepoUtilityOne.xcdatamodel; sourceTree = "<group>"; };
+		B27AB8B11569C28200C2B047 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B27AB8B21569C28200C2B047 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B27AB8B41569C28200C2B047 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B27AB8B51569C28200C2B047 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B27AB8BC1569C28200C2B047 /* RepoUtilityOneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoUtilityOneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27AB8BD1569C28200C2B047 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B27AB8C61569C28200C2B047 /* RepoUtilityOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RepoUtilityOneTests-Info.plist"; sourceTree = "<group>"; };
+		B27AB8C81569C28200C2B047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B27AB8CA1569C28200C2B047 /* RepoUtilityOneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepoUtilityOneTests.h; sourceTree = "<group>"; };
+		B27AB8CB1569C28200C2B047 /* RepoUtilityOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoUtilityOneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B27AB88D1569C28200C2B047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AB8951569C28200C2B047 /* UIKit.framework in Frameworks */,
+				B27AB8971569C28200C2B047 /* Foundation.framework in Frameworks */,
+				B27AB8991569C28200C2B047 /* CoreGraphics.framework in Frameworks */,
+				B27AB89B1569C28200C2B047 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27AB8B81569C28200C2B047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AB8BE1569C28200C2B047 /* SenTestingKit.framework in Frameworks */,
+				B27AB8BF1569C28200C2B047 /* UIKit.framework in Frameworks */,
+				B27AB8C01569C28200C2B047 /* Foundation.framework in Frameworks */,
+				B27AB8C11569C28200C2B047 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27AB8851569C28200C2B047 = {
+			isa = PBXGroup;
+			children = (
+				B27AB89C1569C28200C2B047 /* RepoUtilityOne */,
+				B27AB8C41569C28200C2B047 /* RepoUtilityOneTests */,
+				B27AB8931569C28200C2B047 /* Frameworks */,
+				B27AB8911569C28200C2B047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B27AB8911569C28200C2B047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B27AB8901569C28200C2B047 /* RepoUtilityOne.app */,
+				B27AB8BC1569C28200C2B047 /* RepoUtilityOneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27AB8931569C28200C2B047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B27AB8941569C28200C2B047 /* UIKit.framework */,
+				B27AB8961569C28200C2B047 /* Foundation.framework */,
+				B27AB8981569C28200C2B047 /* CoreGraphics.framework */,
+				B27AB89A1569C28200C2B047 /* CoreData.framework */,
+				B27AB8BD1569C28200C2B047 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B27AB89C1569C28200C2B047 /* RepoUtilityOne */ = {
+			isa = PBXGroup;
+			children = (
+				B27AB8A51569C28200C2B047 /* AppDelegate.h */,
+				B27AB8A61569C28200C2B047 /* AppDelegate.m */,
+				B27AB8A81569C28200C2B047 /* MainStoryboard_iPhone.storyboard */,
+				B27AB8AB1569C28200C2B047 /* MainStoryboard_iPad.storyboard */,
+				B27AB8B11569C28200C2B047 /* MainViewController.h */,
+				B27AB8B21569C28200C2B047 /* MainViewController.m */,
+				B27AB8B41569C28200C2B047 /* FlipsideViewController.h */,
+				B27AB8B51569C28200C2B047 /* FlipsideViewController.m */,
+				B27AB8AE1569C28200C2B047 /* RepoUtilityOne.xcdatamodeld */,
+				B27AB89D1569C28200C2B047 /* Supporting Files */,
+			);
+			path = RepoUtilityOne;
+			sourceTree = "<group>";
+		};
+		B27AB89D1569C28200C2B047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B27AB89E1569C28200C2B047 /* RepoUtilityOne-Info.plist */,
+				B27AB89F1569C28200C2B047 /* InfoPlist.strings */,
+				B27AB8A21569C28200C2B047 /* main.m */,
+				B27AB8A41569C28200C2B047 /* RepoUtilityOne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B27AB8C41569C28200C2B047 /* RepoUtilityOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				B27AB8CA1569C28200C2B047 /* RepoUtilityOneTests.h */,
+				B27AB8CB1569C28200C2B047 /* RepoUtilityOneTests.m */,
+				B27AB8C51569C28200C2B047 /* Supporting Files */,
+			);
+			path = RepoUtilityOneTests;
+			sourceTree = "<group>";
+		};
+		B27AB8C51569C28200C2B047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B27AB8C61569C28200C2B047 /* RepoUtilityOneTests-Info.plist */,
+				B27AB8C71569C28200C2B047 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B27AB88F1569C28200C2B047 /* RepoUtilityOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27AB8CF1569C28200C2B047 /* Build configuration list for PBXNativeTarget "RepoUtilityOne" */;
+			buildPhases = (
+				B27AB88C1569C28200C2B047 /* Sources */,
+				B27AB88D1569C28200C2B047 /* Frameworks */,
+				B27AB88E1569C28200C2B047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepoUtilityOne;
+			productName = RepoUtilityOne;
+			productReference = B27AB8901569C28200C2B047 /* RepoUtilityOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B27AB8BB1569C28200C2B047 /* RepoUtilityOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27AB8D21569C28200C2B047 /* Build configuration list for PBXNativeTarget "RepoUtilityOneTests" */;
+			buildPhases = (
+				B27AB8B71569C28200C2B047 /* Sources */,
+				B27AB8B81569C28200C2B047 /* Frameworks */,
+				B27AB8B91569C28200C2B047 /* Resources */,
+				B27AB8BA1569C28200C2B047 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B27AB8C31569C28200C2B047 /* PBXTargetDependency */,
+			);
+			name = RepoUtilityOneTests;
+			productName = RepoUtilityOneTests;
+			productReference = B27AB8BC1569C28200C2B047 /* RepoUtilityOneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B27AB8871569C28200C2B047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B27AB88A1569C28200C2B047 /* Build configuration list for PBXProject "RepoUtilityOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B27AB8851569C28200C2B047;
+			productRefGroup = B27AB8911569C28200C2B047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B27AB88F1569C28200C2B047 /* RepoUtilityOne */,
+				B27AB8BB1569C28200C2B047 /* RepoUtilityOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B27AB88E1569C28200C2B047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AB8A11569C28200C2B047 /* InfoPlist.strings in Resources */,
+				B27AB8AA1569C28200C2B047 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B27AB8AD1569C28200C2B047 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27AB8B91569C28200C2B047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AB8C91569C28200C2B047 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B27AB8BA1569C28200C2B047 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B27AB88C1569C28200C2B047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AB8A31569C28200C2B047 /* main.m in Sources */,
+				B27AB8A71569C28200C2B047 /* AppDelegate.m in Sources */,
+				B27AB8B01569C28200C2B047 /* RepoUtilityOne.xcdatamodeld in Sources */,
+				B27AB8B31569C28200C2B047 /* MainViewController.m in Sources */,
+				B27AB8B61569C28200C2B047 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27AB8B71569C28200C2B047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27AB8CC1569C28200C2B047 /* RepoUtilityOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B27AB8C31569C28200C2B047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B27AB88F1569C28200C2B047 /* RepoUtilityOne */;
+			targetProxy = B27AB8C21569C28200C2B047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B27AB89F1569C28200C2B047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27AB8A01569C28200C2B047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B27AB8A81569C28200C2B047 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27AB8A91569C28200C2B047 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B27AB8AB1569C28200C2B047 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27AB8AC1569C28200C2B047 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B27AB8C71569C28200C2B047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B27AB8C81569C28200C2B047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B27AB8CD1569C28200C2B047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27AB8CE1569C28200C2B047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B27AB8D01569C28200C2B047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RepoUtilityOne/RepoUtilityOne-Prefix.pch";
+				INFOPLIST_FILE = "RepoUtilityOne/RepoUtilityOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B27AB8D11569C28200C2B047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RepoUtilityOne/RepoUtilityOne-Prefix.pch";
+				INFOPLIST_FILE = "RepoUtilityOne/RepoUtilityOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B27AB8D31569C28200C2B047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RepoUtilityOne.app/RepoUtilityOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RepoUtilityOne/RepoUtilityOne-Prefix.pch";
+				INFOPLIST_FILE = "RepoUtilityOneTests/RepoUtilityOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B27AB8D41569C28200C2B047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RepoUtilityOne.app/RepoUtilityOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RepoUtilityOne/RepoUtilityOne-Prefix.pch";
+				INFOPLIST_FILE = "RepoUtilityOneTests/RepoUtilityOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B27AB88A1569C28200C2B047 /* Build configuration list for PBXProject "RepoUtilityOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27AB8CD1569C28200C2B047 /* Debug */,
+				B27AB8CE1569C28200C2B047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27AB8CF1569C28200C2B047 /* Build configuration list for PBXNativeTarget "RepoUtilityOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27AB8D01569C28200C2B047 /* Debug */,
+				B27AB8D11569C28200C2B047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B27AB8D21569C28200C2B047 /* Build configuration list for PBXNativeTarget "RepoUtilityOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27AB8D31569C28200C2B047 /* Debug */,
+				B27AB8D41569C28200C2B047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B27AB8AE1569C28200C2B047 /* RepoUtilityOne.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B27AB8AF1569C28200C2B047 /* RepoUtilityOne.xcdatamodel */,
+			);
+			currentVersion = B27AB8AF1569C28200C2B047 /* RepoUtilityOne.xcdatamodel */;
+			path = RepoUtilityOne.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B27AB8871569C28200C2B047 /* Project object */;
+}
